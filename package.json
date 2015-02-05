@@ -1,0 +1,49 @@
+{
+  "name": "envc-assert",
+  "version": "0.0.0",
+  "description": "A drop-in replacement for `envc` that also verifies specific environment variables are set.",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "NODE_ENV=test tape test.js | faucet",
+    "lint": "jshint **.js",
+    "develop": "rerun-script"
+  },
+  "watches": [
+    {
+      "script": "test",
+      "patterns": [
+        "*.js"
+      ]
+    }
+  ],
+  "keywords": [
+    "12factor",
+    "env",
+    "envc",
+    "dotenv",
+    "assert",
+    "assertion",
+    "environment",
+    "variable",
+    "environmentvariables"
+  ],
+  "author": "Wil Moore III <wil.moore@wilmoore.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilmoore/node-assert-env"
+  },
+  "dependencies": {
+    "assert-env": "^0.6.0",
+    "debug": "^2.1.1",
+    "envc": "^2.1.0",
+    "params": "^0.1.1"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "jshint": "^2.6.0",
+    "rerun-script": "^0.4.1",
+    "tape": "^3.5.0"
+  }
+}

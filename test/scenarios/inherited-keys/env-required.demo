@@ -1,0 +1,2 @@
+DEMO_DB_HOST="someapp.5432.rds.amazonaws.com"
+DEMO_DB_USER="someapp"
