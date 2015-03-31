@@ -1,6 +1,6 @@
 {
   "name": "envc-assert",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A drop-in replacement for `envc` that also verifies specific environment variables are set.",
   "main": "index.js",
   "scripts": {
