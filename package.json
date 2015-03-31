@@ -32,7 +32,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wilmoore/node-assert-env"
+    "url": "https://github.com/wilmoore/node-envc-assert"
   },
   "dependencies": {
     "assert-env": "^0.6.0",
