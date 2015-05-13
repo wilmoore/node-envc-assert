@@ -37,13 +37,14 @@
   "dependencies": {
     "assert-env": "^0.6.0",
     "debug": "^2.1.1",
-    "envc": "^2.1.0",
+    "envc": "^2.2.0",
     "params": "^0.1.1"
   },
   "devDependencies": {
+    "debug": "^2.2.0",
     "faucet": "0.0.1",
-    "jshint": "^2.6.0",
-    "rerun-script": "^0.4.1",
-    "tape": "^3.5.0"
+    "jshint": "^2.7.0",
+    "rerun-script": "^0.6.0",
+    "tape": "^4.0.0"
   }
 }
